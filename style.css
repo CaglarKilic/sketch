@@ -1,0 +1,29 @@
+:root {
+    --width: 100%;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: gray;
+    height: 60%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-element {
+    background-color: white;
+    width: var(--width);
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: groove;
+}
